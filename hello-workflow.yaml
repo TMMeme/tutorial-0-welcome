@@ -12,6 +12,9 @@ imports:
   type: git
   parameters:
     repository: "git@github.com:TMMeme/tutorial-0-welcome.git"
+    #自分のレポジトリからSubmitするときは"git@github.com:<your-github-username>/<your-repo-name>.git"の形式を守る！！
+    #ちなみにZapataのれぽじとりからSubmitするときは"git@github.com:zapatacomputing/tutorial-0-welcome"の形式を守る！！
+    #違いに注意
     branch: "master"
 
 steps:
