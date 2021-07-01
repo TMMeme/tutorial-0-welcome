@@ -11,7 +11,7 @@ imports:
 - name: welcome-to-orquestra
   type: git
   parameters:
-    repository: "git@github.com:zapatacomputing/tutorial-0-welcome.git"
+    repository: "git@github.com/TMMeme/tutorial-0-welcome.git"
     branch: "master"
 
 steps:
@@ -25,6 +25,7 @@ steps:
       parameters:
         file: welcome-to-orquestra/welcome.py
         function: welcome
+
   outputs:
   - name: welcome
     type: message
